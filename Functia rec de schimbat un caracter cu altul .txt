@@ -1,0 +1,24 @@
+def swap_char(string, c1, c2):
+    # noul string (empty initial)
+    string_new = ""
+    # verificam fiecare char din string
+    for c in string:
+        # daca c este c1 (care trebuie inlocuit)
+        if c == c1:
+            # adaugam in noul string c2 (cel prin care se inlocuieste)
+            string_new += c2
+        # altfel
+        else:
+            # adaugam c in noul string
+            string_new += c
+
+    return string_new
+
+
+def swap_char_filter(string, c1, c2):
+    string_new = map(lambda c: c if c != c1 else c2, string)
+    return "".join(string_new)
+
+
+print(swap_char("abbac", "a", "b"))
+print(swap_char_filter("abbac", "a", "b"))

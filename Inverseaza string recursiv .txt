@@ -1,0 +1,8 @@
+def reverse_str(string):
+    if string:
+        return reverse_str(string[1:]) + string[0]
+    else:
+        return ""
+
+
+print(reverse_str("abbac"))

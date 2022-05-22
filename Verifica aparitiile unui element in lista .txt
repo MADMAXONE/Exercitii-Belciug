@@ -1,0 +1,8 @@
+
+
+def count_occurrences(vec, item):
+    count = 0
+    for x in vec:
+        if x == item:
+            count += 1
+    return count

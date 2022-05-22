@@ -1,0 +1,5 @@
+def count_items(string, types):
+    return len(list(filter(lambda x: x in types, string)))
+
+
+print(count_items("abbacci", "aeiou"))

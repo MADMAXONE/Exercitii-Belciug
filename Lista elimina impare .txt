@@ -1,0 +1,12 @@
+lista = [1,2,3,4,5,4,3,2,1]
+#șterg primul element ce conține 2
+lista.remove(2)
+#afișez iar lista
+print(lista)
+#șterg primul element
+del lista[0]
+print(lista)
+
+
+def remove_odds(vec):
+    return list(filter(lambda x: x % 2 == 0, vec))

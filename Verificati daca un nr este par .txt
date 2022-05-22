@@ -1,0 +1,4 @@
+
+a = int(input("Enter the number to find odd "))
+if (a % 2) == 0:
+    print("{0} is Odd".format(a))

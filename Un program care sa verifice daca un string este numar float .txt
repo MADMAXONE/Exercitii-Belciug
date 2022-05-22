@@ -1,0 +1,6 @@
+nr = "120.0"
+try:
+    float(nr)
+    print("Convertible to float")
+except ValueError:
+    print("Not convertible to float")

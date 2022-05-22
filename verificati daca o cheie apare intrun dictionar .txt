@@ -1,0 +1,11 @@
+def check_key(dict_input, key):
+    return key in dict_input
+
+
+given_dict = {"a": 1, "b": 3, "c": 8}
+print(check_key(given_dict, "a"))
+
+
+
+
+

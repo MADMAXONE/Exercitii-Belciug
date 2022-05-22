@@ -1,0 +1,16 @@
+
+def sum_cif_rec(n):
+    if n != 0:
+        return n % 10 + sum_cif_rec(n // 10)
+    else:
+        return 0
+
+
+def prod_cif_rec(n):
+    if n != 0:
+        return n % 10 * prod_cif_rec(n // 10)
+    else:
+        return 1
+
+
+print(sum_cif_rec(1120))

@@ -1,0 +1,15 @@
+#A = int(input("A="))
+#B = int(input("B="))
+A = 70
+B = 40
+C = 30
+#algoritmul de interschimbare
+T = A
+A = B
+B = C
+C = T
+
+#afișarea rezultatelor
+print("A =",A)
+print("B =",B)
+print("C =",C)
